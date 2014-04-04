@@ -18,4 +18,6 @@ In the EC2 Management Console
 * cd mcp && bundle
 * rails server
 
-If all goes as expected WEBRick will fire up and your rails app will be running.
+If all goes as expected WEBRick will fire up and your rails app will be running on port 3000.
+Make sure your AWS security policies allow it and connect to http://your.ip.address.here:3000
+
