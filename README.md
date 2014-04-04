@@ -12,7 +12,10 @@ In the EC2 Management Console
 * Search for 14.04 and pick the 64 bit AMI.
 * Connect to instance, sudo apt-get update && sudo apt-get dist-upgrade -y
 * sudo apt-get install ruby-rails-4.0
-* sudo apt-get install sqlite3 libsqlite3-dev
+* sudo apt-get install sqlite3 libsqlite3-dev nodejs
 * mkdir rails_projects
 * cd rails_projects && rails new mcp
 * cd mcp && bundle
+* rails server
+
+If all goes as expected WEBRick will fire up and your rails app will be running.
